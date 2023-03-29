@@ -21,7 +21,7 @@ GET    @ /api/users/current      - returns the username of the logged in user
   
 GET    @ /api/items              - read all to-do items  
 POST   @ /api/items              - create to-do item  
-GET    @ /api/items/find/:filter - filter fields of to-do items for a search term  
+GET    @ /api/items/find         - filter fields of to-do items for a search term  
 GET    @ /api/items/:id          - retrieve a to-do item based on ID  
 DELETE @ /api/items/:id          - delete a to-do item based on ID  
 PATCH  @ /api/items/:id          - update a to-do item based on ID  
