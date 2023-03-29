@@ -1,5 +1,4 @@
 // two examples of user fields
-
 [
     {
         username: "admin",
