@@ -2,7 +2,7 @@
 BE Exercise to practice building a CRUD API 
 
 Simple CRUD API where users need to register and then login to be able to view to-do items.
-The user may view all items or a specific item, create items, but only the owner of an item may modify or delete an item.
+The user may view all items or a specific item, create items, update items, or delete items; however only the owner of an item may update or delete an item.
 Users may also search to-do items by different filters and keywords (case sensitive).
 
 ## Technologies used  
