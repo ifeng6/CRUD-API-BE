@@ -1,7 +1,7 @@
 # CRUD-API-BE-Exercise
 BE Exercise to practice building a CRUD API 
 
-This is an API where users need to register and then login to be able to view to-do items.
+Simple CRUD API where users need to register and then login to be able to view to-do items.
 The user may view all items or a specific item, create items, but only the owner of an item may modify or delete an item.
 Users may also search to-do items by different filters and keywords (case sensitive).
 
