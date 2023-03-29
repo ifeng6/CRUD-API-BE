@@ -14,12 +14,12 @@ MongoDB
 ```
 GET    @ /api                    - homepage  
   
-GET    @ /api/users              - show all registered usernames  
+GET    @ /api/users              - read all registered usernames  
 POST   @ /api/users/register     - register with username and password  
 POST   @ /api/users/login        - login using username and password  
 GET    @ /api/users/current      - returns the username of the logged in user  
   
-GET    @ /api/items              - show all to-do items  
+GET    @ /api/items              - read all to-do items  
 POST   @ /api/items              - create to-do item  
 GET    @ /api/items/find/:filter - filter fields of to-do items for a search term  
 GET    @ /api/items/:id          - retrieve a to-do item based on ID  
