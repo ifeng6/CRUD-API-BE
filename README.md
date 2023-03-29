@@ -7,7 +7,7 @@ Users may also search to-do items by different filters and keywords (case sensit
 
 ## Technologies used  
 Node.js  
-Express  
+Express.js  
 MongoDB   
 
 ## Routes
