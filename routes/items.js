@@ -15,7 +15,7 @@ router.get("/", getItems);
 
 router.post("/", addItem);
 
-router.get("/find/:filter", findItems);
+router.get("/find", findItems);
 
 router.get("/:id", getItem);
 

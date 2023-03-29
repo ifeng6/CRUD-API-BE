@@ -35,11 +35,10 @@ const addItem = asyncHandler(async (req, res) => {
 
 
 // Find items based on given filters
-// GET /api/items/find/:filter
+// GET /api/items/find
 // private
 const findItems = asyncHandler(async (req, res) => {
-    const filter = req.params.filter;
-    const { search } = req.body;
+    const { filter, search } = req.body;
     if(!filter) {
         res.status(400);
         throw new Error("Please provide a filter to search for");
